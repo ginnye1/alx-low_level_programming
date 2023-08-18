@@ -1,16 +1,22 @@
 #include "main.h"
 
 /**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
-
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-        int i;
-
-        i = 98;
-        positive_or_negative(i);
-
-        return (0);
+print_number(98);
+_putchar('\n');
+print_number(402);
+_putchar('\n');
+print_number(1024);
+_putchar('\n');
+print_number(0);
+_putchar('\n');
+print_number(-98);
+_putchar('\n');
+return (0);
 }
+
