@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * sqrt_a - Main Entry
  * @a: input
